@@ -1,0 +1,57 @@
+/* Proprietà generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+    overflow-x: hidden;
+}
+
+/* Proprietà header */
+header{
+    height: 100px;
+    background-color: crimson;
+    color: chartreuse;
+    text-align: center;
+    text-shadow: 1px 1px 0 black;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    overflow: hidden;
+}
+header h1{
+    margin-bottom: 10px;
+}
+
+/* Proprietà main */
+main{
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 30px 20px;
+    margin: 0 -20px;
+}
+
+main > *{
+    /* flex-basis: calc((100% / 3) - 40px); */
+    flex-basis: 200px;
+    /* min-width: 200px; */
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 20px;
+}
+
+main i {
+    font-size: 40px;
+}
