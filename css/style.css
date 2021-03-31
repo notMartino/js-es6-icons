@@ -13,7 +13,7 @@ body{
 header{
     height: 100px;
     background-color: crimson;
-    color: chartreuse;
+    color:lightgreen;
     text-align: center;
     text-shadow: 1px 1px 0 black;
     border-bottom: 3px solid black;
@@ -50,8 +50,16 @@ main > *{
     justify-content: center;
     align-items: center;
     margin: 0 20px 20px;
+    text-align: center;
 }
 
 main i {
     font-size: 40px;
+    text-shadow: 1px 1px 0 black;
+}
+main h5{
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    text-shadow: none;
 }
